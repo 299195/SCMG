@@ -72,6 +72,9 @@ docs/                     架构、使用方式和仓库内容说明
 
 各目录、文件及其作用的完整说明见
 [`docs/REPOSITORY_CONTENTS_ZH.md`](docs/REPOSITORY_CONTENTS_ZH.md)。
+更详细、适合下载和打印的 Word 说明书见
+[`docs/SCMG_GitHub仓库详细说明.docx`](docs/SCMG_GitHub仓库详细说明.docx)，其中包含
+架构流程、接口字段、测试方法、安全边界、扩展方式和发布维护说明。
 
 ## 核心安全属性
 

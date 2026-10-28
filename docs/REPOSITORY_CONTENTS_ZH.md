@@ -21,6 +21,7 @@
 | 合成样例 | `examples/` | 展示输入记录、持久记忆文件和评测行格式 |
 | 自动测试 | `tests/` | 验证策略、桥接、审计链、工具目标绑定和评测分母 |
 | 架构与使用文档 | `docs/` | 说明数据流、桥接协议、环境变量和扩展边界 |
+| Word 详细说明书 | `docs/SCMG_GitHub仓库详细说明.docx` | 系统说明项目定位、架构、接口、测试、安全边界、扩展与维护方法 |
 | 项目配置 | `pyproject.toml` | 定义 Python 包、版本、命令行入口和 Python 版本要求 |
 | Git 配置 | `.gitignore`、`.gitattributes` | 排除运行状态与凭据类文件，并统一文本换行格式 |
 | 中英文首页 | `README.md`、`README_ZH.md` | 分别提供英文和中文项目介绍、安装方法和核心能力说明 |
@@ -57,7 +58,8 @@ SCMG/
 └── docs/
     ├── architecture.md
     ├── usage.md
-    └── REPOSITORY_CONTENTS_ZH.md
+    ├── REPOSITORY_CONTENTS_ZH.md
+    └── SCMG_GitHub仓库详细说明.docx
 ```
 
 ## 4. 核心 Python 包
@@ -144,6 +146,7 @@ python -m unittest discover -s tests -v
 
 - `docs/architecture.md` 说明从输入来源到写入、复查、后续使用和工具约束的数据流。
 - `docs/usage.md` 说明桥接 JSON 协议、OpenClaw 环境变量和扩展其他记忆存储的方法。
+- `docs/SCMG_GitHub仓库详细说明.docx` 提供适合离线阅读与打印的完整中文说明，覆盖仓库结构、核心模块、桥接协议、插件钩子、测试验证、安全边界和维护建议。
 - `pyproject.toml` 将包名定义为 `scmg`，要求 Python 3.10 以上，并注册 `scmg-bridge` 命令。
 - `.gitignore` 排除虚拟环境、缓存、运行状态、数据库、认证文件和密钥文件。
 - `.gitattributes` 将仓库文本文件统一为 LF 换行。

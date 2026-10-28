@@ -74,6 +74,9 @@ docs/                     Architecture and deployment notes
 
 A detailed Chinese inventory of every uploaded component is available in
 [`docs/REPOSITORY_CONTENTS_ZH.md`](docs/REPOSITORY_CONTENTS_ZH.md).
+For a longer, print-friendly Chinese guide covering architecture, interfaces,
+tests, security boundaries, and maintenance, download
+[`docs/SCMG_GitHub仓库详细说明.docx`](docs/SCMG_GitHub仓库详细说明.docx).
 
 ## Security properties
 
