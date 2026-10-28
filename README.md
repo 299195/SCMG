@@ -1,5 +1,7 @@
 # SCMG
 
+English | [中文](README_ZH.md)
+
 SCMG (Source-Constrained Memory Guard) is a research prototype for protecting
 persistent memory in LLM agents. It keeps the origin of external material
 attached to memory claims, filters unsafe standing rules before they are
@@ -69,6 +71,9 @@ examples/                 Synthetic, non-experimental inputs
 tests/                    Deterministic unit and bridge tests
 docs/                     Architecture and deployment notes
 ```
+
+A detailed Chinese inventory of every uploaded component is available in
+[`docs/REPOSITORY_CONTENTS_ZH.md`](docs/REPOSITORY_CONTENTS_ZH.md).
 
 ## Security properties
 
