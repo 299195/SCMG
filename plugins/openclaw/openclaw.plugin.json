@@ -1,0 +1,7 @@
+{
+  "id": "scmg",
+  "name": "Source-Constrained Memory Guard",
+  "description": "Claim admission, safe retrieval projection, and source-bound action checks.",
+  "activation": {"onStartup": true},
+  "configSchema": {"type": "object", "additionalProperties": false}
+}

@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+node_modules/
+
+# Local runtime state
+state/
+state-check/
+events.jsonl
+audit.jsonl
+origin.json
+*.db
+*.sqlite
+
+# Credentials and local configuration
+.env
+.env.*
+auth.json
+**/auth.json
+*.pem
+*.key

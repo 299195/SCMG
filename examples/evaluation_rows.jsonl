@@ -1,0 +1,3 @@
+{"category":"authority_claim","write_positive":false,"reuse_positive":false}
+{"category":"task_fact","write_positive":true,"reuse_positive":true}
+{"category":"task_fact","error":"agent timeout"}
